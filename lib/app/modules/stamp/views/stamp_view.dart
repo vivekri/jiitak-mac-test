@@ -92,7 +92,7 @@ class StampView extends GetView<StampController> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 247.h,
+                    height: 250,
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemCount: 10,
@@ -123,7 +123,7 @@ class StampView extends GetView<StampController> {
                                 const SliverGridDelegateWithFixedCrossAxisCount(
                                     crossAxisCount: 5,
                                     crossAxisSpacing: 0,
-                                    childAspectRatio: 0.85,
+                                    childAspectRatio: 1,
                                     mainAxisSpacing: 0),
                             itemBuilder: (BuildContext context, int index) {
                               return Image.asset(
